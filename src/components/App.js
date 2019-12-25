@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bootswatch/journal/bootstrap.css";
 import "../styles/App.css";
+import EasyLab from "./Calc.js"
 
 var fetch = require("node-fetch");
 
@@ -69,6 +70,7 @@ class App extends Component {
           <Navbar.Header>
             <Navbar.Brand>
               Do You Want Some Weather Info?
+              Языков ИКБО-03-16
             </Navbar.Brand>
           </Navbar.Header>
         </Navbar>
@@ -94,6 +96,7 @@ class App extends Component {
             </Col>
           </Row>
         </Grid>
+        <EasyLab />
       </div>
     );
   }
